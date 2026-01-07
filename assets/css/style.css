@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FDF0E2;
+}
+
+
+nav{
+    height: 133px;
+    padding: 48px 160px 48px 160px;
+}
+.nav-lin-st{
+    font-size: 16px;
+    color: black;
+      text-transform: uppercase;
+
+}
+.active-st{
+    background-color: #00C0ED;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 90%
+  );
+}
+
+.head-h1{
+    color: black;
+    font: sink;
+    font-weight: 800;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    line-height: 100%;
+      text-transform: uppercase;
+}
+.pinable-img{
+    width: 13%;
+    transform: rotate(-20deg);
+    display: block;
+    margin-right: 70px !important;
+    top: 109px !important;
+    position: fixed;
+}
+.pinable-div .pinable-img {
+    left: -80px;
+    top: 130px !important;
+}
+.pinable-div-right .pinable-img {
+    right: 0;
+}
+
+
+.maho-img{
+    width: 13%;
+    transform: rotate(-20deg);
+    display: block;
+    margin-left: 70px !important;
+    top: 109px !important;
+    position: fixed;
+}
+.maho2-img
+{
+    width: 100%;
+    transform: rotate(20deg);
+}
+.maho-div-right .maho-img {
+    right: -37px;
+    top: 250px !important;
+}
+.maho2-div .maho2-img {
+    left: -200px;
+    top: 260px !important;
+}
+.maho2-div .maho2-img {
+    right: 0;
+}
