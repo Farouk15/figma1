@@ -35,16 +35,19 @@ nav{
       text-transform: uppercase;
 }
 .pinable-img{
-    width: 13%;
+    width: 150%;
     transform: rotate(-20deg);
     display: block;
     margin-right: 70px !important;
-    top: 109px !important;
-    position: fixed;
+    top: -100px;
+    position: relative;
+    /* top: 109px !important; */
+    /* position: fixed; */
+    left: -70px !important;
+
 }
 .pinable-div .pinable-img {
-    left: -80px;
-    top: 130px !important;
+    /* top: 130px !important; */
 }
 .pinable-div-right .pinable-img {
     right: 0;
@@ -52,26 +55,97 @@ nav{
 
 
 .maho-img{
-    width: 13%;
+    width: 140%;
     transform: rotate(-20deg);
     display: block;
-    margin-left: 70px !important;
-    top: 109px !important;
-    position: fixed;
+    /* margin-left: 70px !important; */
+    /* top: 109px !important; */
+    position: absolute;
+  overflow: hidden; /* to prevent any part from causing scroll */
+
+    /* position: fixed; */
 }
 .maho2-img
 {
     width: 100%;
     transform: rotate(20deg);
 }
-.maho-div-right .maho-img {
+/* .maho-div-right .maho-img {
     right: -37px;
     top: 250px !important;
-}
+} */
+ .maho-div-right{
+      position: relative;
+  width: 100%;
+  overflow: hidden;
+ }
 .maho2-div .maho2-img {
-    left: -200px;
+    /* left: -30%  !important; */
     top: 260px !important;
 }
 .maho2-div .maho2-img {
     right: 0;
+}
+.cans-div{
+    display: flex;
+    justify-content: center;
+
+}
+.col-cans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 70px;
+
+
+}
+.cans1 img,  .cans3 img{
+    width: 165%;
+}
+.cans2 img{
+    width: 175%;
+}
+
+.cans1 .cans1-img{
+    position: relative;
+    left: 70% !important;
+        z-index: 1;
+
+}
+.cans3 .cans3-img{
+    position: relative;
+    left: -62% !important;
+        z-index: 1;
+
+}
+.cans2 .cans2-img{ 
+    position: relative;
+    z-index: 11;
+
+}
+.cans-background{
+    position: relative;
+    display: flex;
+    left: 5%;
+    margin-top: 40px;
+}
+.maho-liga{
+    margin-top: 270px;
+}
+.explore-div{
+    margin-top: 190px;
+}
+.text-ex-div p {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+main {
+    margin-top: 100px;
 }
